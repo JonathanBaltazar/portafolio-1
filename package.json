@@ -1,0 +1,16 @@
+{
+  "name": "portafolio_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://jonathanbalta.github.io/portafolio-1",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
