@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- FONT AWESOME -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <!-- CUSTOM STYLES -->
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/nav.css" />
+        <link rel="stylesheet" href="css/header.css" />
+        <link rel="stylesheet" href="css/about.css" />
+        <link rel="stylesheet" href="css/projects-section.css" />
+        <link rel="stylesheet" href="css/footer.css" />
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Oswald:wght@200;400;600&family=Playfair+Display&family=Poppins:wght@100;200;300;500;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100;300;400&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <nav class="">
+            <div class="logo">
+                <a href="#">App</a>
+            </div>
+            <div id="nav-links" class="nav-links">
+                <a href="#about-me">Sobre mí</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#footer">Contacto</a>
+            </div>
+            <div class="hamburguer-button-container">
+                <i id="bars-btn" class="fa-solid fa-bars"></i>
+                <!-- <i class="fa-solid fa-x"></i> -->
+            </div>
+        </nav>
+
+        <header>
+            <div class="header-text">
+                <h1>Jonathan Baltazar</h1>
+                <p>Mi sitio web</p>
+                <a href="#about-me">Sobre mí</a>
+            </div>
+            <div class="socials">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </header>
+
+        <section class="about-me" id="about-me">
+            <div class="information">
+                <h2>Sobre Mí</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Tempora laboriosam aut dignissimos modi, veritatis quasi.
+                </p>
+            </div>
+            <div class="avatar-container">
+                <img src="imgs/jorg-karg.jpg" alt="Avatar Img" />
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2>Proyectos</h2>
+
+            <div class="projects-cards-container">
+                <div class="project-card">
+                    <div class="img-card-container">
+                        <img src="imgs/img1.gif" alt="Project Image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyecto 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestias, aut.
+                        </p>
+                        <a href="#">Saber mas.</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="img-card-container">
+                        <img src="imgs/img2.png" alt="Project Image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyecto 2</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestias, aut.
+                        </p>
+                        <a href="#">Saber mas.</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="img-card-container">
+                        <img src="imgs/img3.png" alt="Project Image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyecto 3</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestias, aut.
+                        </p>
+                        <a href="#">Saber mas.</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="img-card-container">
+                        <img src="imgs/img4.png" alt="Project Image" />
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyecto 4</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Molestias, aut.
+                        </p>
+                        <a href="#">Saber mas.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <h2>Contactame</h2>
+            <a href="#">jonathan@email.com</a>
+        </footer>
+
+        <script src="js/dinamic_nav.js"></script>
+        <script src="js/responsive_nav.js"></script>
+    </body>
+</html>

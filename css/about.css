@@ -1,0 +1,54 @@
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3rem;
+}
+
+.about-me .information h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.about-me .information p {
+    font-size: 1.5rem;
+}
+.about-me .avatar-container img {
+    width: 15rem;
+    border-radius: 50%;
+}
+
+.about-me .information {
+    width: 70%;
+}
+.about-me .avatar-container {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .about-me .information {
+        width: 50%;
+        padding: 1em;
+    }
+    .about-me .avatar-container {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-me {
+        padding: 2rem;
+        flex-direction: column-reverse;
+    }
+    .about-me .information {
+        width: 100%;
+        padding: 3em 0;
+        text-align: center;
+    }
+    .about-me .avatar-container {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+}

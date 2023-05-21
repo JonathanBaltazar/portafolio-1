@@ -1,0 +1,72 @@
+header {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--main-background);
+    color: var(--main-text-color);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+header .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+header .header-text h1 {
+    font-size: 4rem;
+}
+header .header-text p {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+header .header-text a {
+    text-align: center;
+    width: 8em;
+    font-size: 1.5rem;
+    padding: 8px 10px;
+    border: none;
+    /* background-color: rgb(216, 169, 58); */
+    background-color: var(--link-button-color);
+    color: var(--main-text-color);
+    display: inline-block;
+    transition-property: background;
+    transition-duration: 0.2s;
+}
+header .header-text a:hover {
+    background-color: var(--main-text-color);
+    color: var(--main-background);
+}
+header .socials {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .socials i {
+    margin-bottom: 1rem;
+    color: var(--main-text-color);
+    font-size: 2rem;
+}
+
+/* animacion de header */
+@keyframes identifier {
+    from {
+    }
+    to {
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header .header-text h1 {
+        font-size: 2.5rem;
+    }
+    header .header-text p {
+        font-size: 1rem;
+        /* margin-bottom: 0.5em; */
+    }
+    header .header-text a {
+        font-size: 1rem;
+    }
+}
